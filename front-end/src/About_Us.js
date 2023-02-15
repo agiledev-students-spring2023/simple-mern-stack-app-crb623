@@ -7,8 +7,6 @@ const image = require("./Christina.png");
  * @returns The contents of this component, in JSX form.
  */
 const AboutUs = props => {
-  // this component expects to be passed all the details of the message it should display
-  // format the date of the message nicely
   return (
     <>
       <h1>About me</h1>
@@ -26,5 +24,4 @@ const AboutUs = props => {
   )
 }
 
-// make this component available to be imported into any other file
-export default AboutUs
+export default About_Us
