@@ -2,9 +2,8 @@ import {Link} from 'react-router-dom'
 import './About_Us.css'
 const picture = require("./Christina.png");
 /**
- * A React component that represents one Message in the list of messages.
- * @param {*} param0 an object holding any props and a few function definitions passed to this component from its parent component
- * @returns The contents of this component, in JSX form.
+ * @param {*} param0
+ * @returns
  */
 const About_Us = props => {
   return (
