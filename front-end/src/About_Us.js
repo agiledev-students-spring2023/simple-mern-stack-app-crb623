@@ -1,12 +1,12 @@
 import {Link} from 'react-router-dom'
-import './About-Us.css'
-const image = require("./Christina.png");
+import './About_Us.css'
+const picture = require("./Christina.png");
 /**
  * A React component that represents one Message in the list of messages.
  * @param {*} param0 an object holding any props and a few function definitions passed to this component from its parent component
  * @returns The contents of this component, in JSX form.
  */
-const AboutUs = props => {
+const About_Us = props => {
   return (
     <>
       <h1>About me</h1>
@@ -17,7 +17,7 @@ const AboutUs = props => {
         cusines. I appreciate that food can offer a lens into exciting new cultures.
       </p>
       
-	<img src={image} />
+	<img src={picture} />
 
     </>
   
